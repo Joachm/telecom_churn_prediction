@@ -11,5 +11,8 @@ Note: it might take a while to train the neural network. moreTraining.py might b
 
 2. run allModel.py to get final predictions from the ensemble of the three models.
 A logistic regression classifier is trained on the predictions that the models make on the validation set. It is then tested on the final 15 % of the data set.
-AUC should be > 0.71.
+
+
 At the time of writing the best reported AUC on the kaggle page for this data set is 0.686 (Feb 16 2020).
+
+The final AUC for the classifiers trained here should be > 0.71.
